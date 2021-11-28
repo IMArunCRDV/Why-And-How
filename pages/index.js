@@ -7,9 +7,7 @@ import {FeaturedPosts} from '../sections'
 export default function Home({ posts }) {
   return (
     <div className="container mx-auto px-10 mb-8">
-      <Head>
-        <title>Why and How</title>
-      </Head>
+  
       <FeaturedPosts/>
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
         <div className="col-span-1 lg:col-span-8">

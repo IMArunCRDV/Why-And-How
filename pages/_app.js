@@ -6,13 +6,15 @@ import '../styles/globals.scss'
 
 function MyApp({ Component, pageProps }) {
   return (
-    <Head>
-    <title>Why and How</title>
-    <script data-ad-client="ca-pub-6618815321294218" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  </Head>
+    <>
+      <Head>
+        <title>Why And How</title>
+        <script data-ad-client="ca-pub-6618815321294218" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+      </Head>
     <Layout>
   <Component {...pageProps} />
     </Layout>
+  </>
   
   )
 }
